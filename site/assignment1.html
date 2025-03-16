@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang='en'>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+      *{
+            box-sizing:border-box;
+            margin:0px;
+            padding:0px;
+      }
+      .p11, .p12, .p13{
+            position:relative;
+            border:2px solid black;
+           
+            padding-top:25px;
+            padding-left:10px;
+            padding-right:10px;
+            padding-bottom:10px;
+          
+
+
+
+      }
+
+      #meat1, #meat2, #meat3{
+            position:absolute;
+            top:0px;
+            right:0px;
+            border:1px solid black;
+            width:55px;
+            background-color: red;
+      }
+
+      .p1, .p2, .p3{
+
+            float:left;
+            
+            margin-bottom: 10px;
+      }
+
+      @media(max-width:767px){
+
+            .p1, .p2, .p3{
+
+                  width:100%;
+                    
+            }
+
+            .p11, .p12, .p13{
+                  width:50%;
+                  margin:auto;
+                    margin-top:10px;
+                   margin-bottom:10px;
+                  
+            }
+      }
+
+      @media (min-width:768px) and (max-width:991px){
+
+
+       .p1, .p2 {
+            width:50%;
+       }
+
+       .p11, .p12 {
+            width:80%;
+            margin:auto;
+            margin-top:10px;
+                   margin-bottom:10px;
+       }
+
+      }
+
+      @media(min-width:992px){
+
+            .p1, .p2, .p3{
+                  width:33%;
+            }
+
+            .p11, .p12, .p13{
+
+                  width:80%;
+                  margin:auto;
+                  margin-top:10px;
+                   margin-bottom:10px;
+            }
+      }
+
+   
+
+</style>
+
+<section class="p1">
+
+ <div class="p11">
+   	<p id="meat1">Chicken</p> 
+       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+ </div>
+
+</section>
+
+<section class="p2">
+
+ <div class="p12">
+   	<p id="meat2">beef</p>
+       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+ </div>
+
+</section>
+
+<section class="p3">
+
+ <div class="p13">
+   	<p id="meat3">Sushi</p>
+       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+ </div>
+
+</section>
+
+</html>
